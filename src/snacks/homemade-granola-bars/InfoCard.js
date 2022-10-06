@@ -3,7 +3,8 @@ import React from 'react';
 export default function InfoCard() {
   return (
     <div class="infoCard">
-      <h1> Homemade Granola Bars</h1>
+      <div className="center-card">
+      <h1 className="card-title"> Homemade Granola Bars</h1>
       <div className="infoCard-stars ">
         <img
           className="infoCard-star"
@@ -81,7 +82,7 @@ export default function InfoCard() {
         <li>keep bars stored in the fridge.</li>
         
       </ol>
-      
+      </div>
     </div>
   );
 }
