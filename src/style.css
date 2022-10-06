@@ -27,14 +27,14 @@ nav h1 {
   text-decoration: none;
   color: black;
 }
-.center-card{
+.center-card {
   border: solid;
   margin: 0 15% 0 5%;
   border-top-style: none;
   border-bottom-style: none;
-  align-items: center;
+  
 }
-.card-title{
+.card-title {
   justify-content: center;
   display: flex;
 }
@@ -48,9 +48,12 @@ nav h1 {
   height: 2rem;
 }
 
-.card-jumpToRecipe{
-  margin: auto;
-  
+.card-jumpToRecipe {
   display: flex;
-  
+  margin: auto;
+  justify-content: center;
+}
+
+.card-photoOne {
+  width: 100%;
 }
