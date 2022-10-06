@@ -4,52 +4,38 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-nav{
-  
-  background-color: black;
-}
-.center-nav{
-  
+.center-nav {
   margin: 0 5% 0 5%;
   display: flex;
   justify-content: space-between;
 }
 nav h1 {
-  color: white;
+  color: black;
 }
-.nav-links{
+.nav-links {
   order: 4;
   display: flex;
   float: right;
   gap: 2rem;
   list-style: none;
   align-items: center;
-  
-  
-  
-  
 }
-.nav-links a:hover{
-  color: black;
-  background-color: white;
+.nav-links a:hover {
+  text-decoration: underline;
 }
 .nav-links a {
   text-decoration: none;
-  color: white;
-  
-  
+  color: black;
 }
 
-
-.infoCard{
+.infoCard {
   background-color: azure;
-  
 }
-.infoCard-stars{
+.infoCard-stars {
   display: flex;
   justify-content: center;
 }
-.infoCard-star{
-  width:2rem;
+.infoCard-star {
+  width: 2rem;
   height: 2rem;
 }
