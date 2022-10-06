@@ -57,3 +57,16 @@ nav h1 {
 .card-photoOne {
   width: 100%;
 }
+
+.card-thingsYouWillNeed li{
+  padding-bottom: 2%;
+}
+.card-ingredientsList li{
+  padding-bottom: 2%;
+}
+.card-recipe{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+

@@ -49,12 +49,13 @@ export default function InfoCard() {
         </p>
         <br />
         <h2>Things you will need </h2>
-        <ul>
+        <ul className="card-thingsYouWillNeed">
           <li>Baking pan</li>
           <li>Parchment paper or non-stick mat</li>
           <li>Big mixing bowl</li>
         </ul>
-        <ul>
+        <h2>Ingredients you will need</h2>
+        <ul className="card-ingredientsList">
           <li>Peanut butter or any other kind (almond,cashew)</li>
           <li>Whole rolled oats</li>
           <li>Honey</li>
@@ -63,9 +64,9 @@ export default function InfoCard() {
           <li>Crushed peanuts or cashews</li>
           <li>Dried cranberries</li>
           <li>Mini chocolate chips</li>
-          <li></li>
+          
         </ul>
-        <h2>Recipe Ingredients</h2>
+        <h2 className="card-recipe">Recipe Ingredients</h2>
         <ul>
           <li>
             1 cup very smooth creamy natural peanut butter or cashew butter
